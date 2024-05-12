@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  font-family: "Keania One", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  padding-bottom: 2000px;
+}
+
+.keania-one-regular {
+  font-family: "Keania One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bigTitle {
+  font-size: 50px;
+}
+
+.subTitle {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.white {
+  color: white;
+}
+
+.navbar {
+  z-index: 9999;
+  width: 100%; 
+  height: 69px; 
+  left: 0px; 
+  top: 0px; 
+  position: fixed; 
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9); 
+  box-shadow: 0px 4px 5.699999809265137px 1px rgba(0, 0, 0, 0.65);
+  transition: all 0.5s ease;
+}
+
+.navText {
+  margin: 0;
+  margin-right: 55px;
+  transition: all 0.5s ease;
+}
+
+.navImg {
+  width: 60px; 
+  height: auto; 
+  margin: 0 55px 0 25px; 
+  border-radius: 42.50px;
+  transition: all 0.5s ease;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  width: fit-content;
+}
+
+.left {
+  display: flex;
+  align-items: left;
+  width: 0;
+}
+
+.right {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown .dropbtn {
+  width: fit-content;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  padding: 14px;
+  margin-right: 50px;
+  background-color: inherit;
+  transition: all 0.5s ease;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid;
+  min-width: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  font-size: 20px;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 12px;
+  transition: all 0.5s ease;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: all 0.5s ease;
+}
+
+/* Section1 */
+
+.section1 {
+  margin-top: 69px;
+  padding: 0 40px 0 40px;
+  align-items: center;
+  display: flex;
+  position: relative;
+  height: 870px;
+  background-image: url('assets/Background1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.button {
+  background: rgb(41,131,214);
+  background: linear-gradient(90deg, rgba(41,131,214,1) 0%, rgba(56,104,92,1) 50%, rgba(47,44,49,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 6px 6px 13px 3px rgba(0,0,0,0.84); 
+  box-shadow: 6px 6px 13px 3px rgba(0,0,0,0.84);
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+
+.button p {
+  margin: 0;
+}
+
+/* Section2 */
+
+.section2 {
+  margin: 50px;
+  display: flex;
+}
+
+.l, .r {
+  width: 100%;
+}
+
+.l {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.r {
+  max-width: 500px;
+}
+
+.imgContainer {
+  width: 80%;
+  min-width: 400px;
+  height: auto;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* Section3 */
+
+.section3 {
+  padding-top: 50px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  background-image: url('assets/Background2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+.section3 div {
+  justify-content: center;
+}
+
+.section3 .flex {
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+
+.flex div .bigTitle {
+  font-size: 25px;
+}
+
+.flex div .subTitle {
+  font-size: 20px;
+}
+
+.flex div img {
+  width: 50px;
+  height: auto;
+}
+
+.card {
+  max-width: 400px;
+}
