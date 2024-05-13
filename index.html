@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="navbar">
-    <div class="left">
+    <div style="z-index: 99999;" class="left">
       <a href="#">
         <img class="navImg" src="assets/profile.png" />
       </a>
@@ -20,15 +20,15 @@
       <a href="#">
         <div class="subTitle navText">Startseite</div>
       </a>
-      <a href="#">
+      <a href="#about">
         <div class="subTitle navText">Über uns</div>
       </a>
       <div class="dropdown">
-        <button class="dropbtn"><a>Der Lügendetektor V</a></button>
+        <button class="dropbtn"><a class="dropnA">Der Lügendetektor V</a></button>
         <div class="dropdown-content">
-          <a href="">Funktionsweise</a>
-          <a href="">Hauptkomponente</a>
-          <a href="">Vorteile</a>
+          <a href="#funktion">Funktionsweise</a>
+          <a href="#komponente">Hauptkomponente</a>
+          <a href="#vorteile">Vorteile</a>
         </div>
       </div> 
       <a href="#contact">
@@ -41,7 +41,7 @@
       <p class="bigTitle white">Entdecken Sie die<br>Wahrheit mit<br>Lügendetektoren </p>
       <p class="subTitle white">Erfahren Sie, wie Lügendetektoren die<br>Wissenschaft und Justiz<br>beeinflussen.</p>
       <a href="">
-        <div class="button">
+        <div id="funktion" class="button">
           <p class="subTitle white">Mehr Erfahren</p>
         </div>
       </a>
@@ -50,20 +50,20 @@
   <div class="section2">
     <div class="l">
       <div class="imgContainer">
-        <img src="assets/image1.png">
+        <img class="scalable" src="assets/image1.png">
       </div>
     </div>
     <div class="r">
       <p class="subTitle">Vertrauen</p>
       <p class="bigTitle">Die Warheit entdecken: Die Funktionsweise von Lügendetektoren</p>
       <p class="subTitle">Lügendetektoren sind ein faszinierendes Werkzeug zur Erkennung von Lügen. Erfahren Sie mehr über ihre Funktionsweise und erhalten Sie einen kurzen historischen Überblick über ihre Entwicklung.</p>
-      <div class="flex">
+      <div id="komponente" class="flex">
         <a href="">
           <div class="button" style="border-radius: 50px;">
             <p class="subTitle white">Mehr Erfahren</p>
           </div>
         </a>
-        <p class="subTitle" style="margin-top: 30px; margin-left: 50px;">Jetzt ansehen ></p>
+        <a href="#" class="subTitle jetztAnsehen" style="margin-top: 30px; margin-left: 50px;">Jetzt ansehen ></a>
       </div>
     </div>
   </div>
@@ -93,7 +93,7 @@
       </div>
     </div>
   </div>
-  <div class="section4">
+  <div id="vorteile" class="section4">
     <div class="r">
       <img src="assets/Rectangle 35.png">
       <p class="bigTitle">Vorteile von Lügendetektoren in<br>verschiedenen<br>Einsatzgebieten</p>
@@ -108,21 +108,21 @@
     </div>
     <div class="l">
       <div class="imgContainer">
-        <img src="assets/image2.png">
+        <img class="scalable" src="assets/image2.png">
       </div>
     </div>
   </div>
   <div class="section5">
     <div class="l">
       <div class="imgContainer">
-        <img src="assets/image3.png">
+        <img class="scalable" src="assets/image3.png">
       </div>
     </div>
     <div class="r">
       <p class="bigTitle">Diskutieren Sie die<br>Sicherheit von<br>Lügendetektoren</p>
       <p class="subTitle">Erfahren Sie mehr über die Wirksamkeit von Lügendetektoren und ihre Verwendung während der Wissenschaftswoche.</p>
       <div class="flex">
-        <a href="">
+        <a href="#contact">
           <div class="button" style="border-radius: 50px;">
             <p class="subTitle white">Kontaktieren</p>
           </div>
@@ -146,15 +146,15 @@
       </div>
       <p class="subTitle" style="font-weight: 600;">Die Wahrheit ist wie ein Löwe. Man muss sie nur loslassen, und sie wird sich selbst verteidigen.</p>
       <div class="profileContainer">
-        <img src="assets/profile1.png">
+        <img class="scalable" src="assets/profile1.png">
         <div>
           <p class="subTitle" style="font-weight: 600;">Augustin von Hippo</p>
           <p class="subTitle">Theologe und Philosoph</p>
         </div>
         <img class="line" src="assets/Rectangle 14.png">
-        <img src="assets/yingyang.png">
+        <img class="scalable" src="assets/yingyang.png">
       </div>
-      <div class="flex" style="margin-top: 20px;">
+      <div id="about" class="flex" style="margin-top: 20px;">
         <img class="circle1 black" src="assets/Ellipse 3.png">
         <img class="circle1" src="assets/Ellipse 3.png">
         <img class="circle1" src="assets/Ellipse 3.png">
@@ -174,41 +174,41 @@
     <div class="sec7Container">
       <div class="card1">
         <div class="imgContainer1">
-          <img src="assets/profilePic.png">
+          <img class="scalable" src="assets/profilePic.png">
         </div>
         <p class="subTitle">Eric Schuck</p>
         <p class="subTitle" style="font-size: 15px; margin-bottom: 10px;">Experte</p>
         <p class="subTitle">Seit einer Woche lerne ich über den Lügendetektor und bin inzwischen Experte auf diesem Gebiet.</p>
         <div style="margin-top: 10px;">
-          <img src="assets/insta.png">
-          <img src="assets/phone.png">
-          <img src="assets/mail.png">
+          <img class="scalable" src="assets/insta.png">
+          <img class="scalable" src="assets/phone.png">
+          <img class="scalable" src="assets/mail.png">
         </div>
       </div>
       <div class="card1">
         <div class="imgContainer1">
-          <img src="assets/profilePic.png">
+          <img class="scalable" src="assets/profilePic.png">
         </div>
         <p class="subTitle">David Helfrich</p>
         <p class="subTitle" style="font-size: 15px; margin-bottom: 10px;">Spezialist</p>
         <p class="subTitle">Seit einer Woche lerne ich über den Lügendetektor und bin inzwischen Experte auf diesem Gebiet.</p>
         <div style="margin-top: 10px;">
-          <img src="assets/insta.png">
-          <img src="assets/phone.png">
-          <img src="assets/mail.png">
+          <img class="scalable" src="assets/insta.png">
+          <img class="scalable" src="assets/phone.png">
+          <img class="scalable" src="assets/mail.png">
         </div>
       </div>
       <div class="card1">
         <div class="imgContainer1">
-          <img src="assets/profilePic.png">
+          <img class="scalable" src="assets/profilePic.png">
         </div>
         <p class="subTitle">Laurin Lorke</p>
         <p class="subTitle" style="font-size: 15px; margin-bottom: 10px;">Experte</p>
         <p class="subTitle">Seit einer Woche lerne ich über den Lügendetektor und bin inzwischen Experte auf diesem Gebiet.</p>
         <div style="margin-top: 10px;">
-          <img src="assets/insta.png">
-          <img src="assets/phone.png">
-          <img src="assets/mail.png">
+          <img class="scalable" src="assets/insta.png">
+          <img class="scalable" src="assets/phone.png">
+          <img class="scalable" src="assets/mail.png">
         </div>
       </div>
     </div>
@@ -218,9 +218,11 @@
       <div>
         <p class="bigTitle">Häufige Fragen</p>
         <p class="subTitle">Hier finden Sie weitere häufig gestellte Fragen zu ethischen Bedenken und wissenschaftlichen Erkenntnissen rund um Lügendetektoren.</p>
-        <div class="button" style="border-radius: 50px;">
-          <p class="subTitle white">Kontakt</p>
-        </div>
+        <a href="#contact">
+          <div class="button" style="border-radius: 50px;">
+            <p class="subTitle white">Kontakt</p>
+          </div>
+        </a>
       </div>
     </div>
     <div class="right">
@@ -231,6 +233,34 @@
         <div>dropdown</div>
         <div>dropdown</div>
       </div>
+    </div>
+  </div>
+  <div class="section9">
+    <div>
+      <img class="scalable" src="assets/profile.png">
+    </div>
+    <div>
+      <p class="subTitle" style="font-weight: 700;">Der Lügendetektor</p>
+      <p class="subTitle">Funktion</p>
+      <p class="subTitle">Vorteile</p>
+      <p class="subTitle">Bewertungen</p>
+    </div>
+    <div>
+      <p class="subTitle" style="font-weight: 700;">Kontakt</p>
+      <p class="subTitle">Bleiben Sie auf dem Laufenden.</p>
+      <div id="contact" class="button" style="border-radius: 50px;">
+        <p class="subTitle white">Email</p>
+      </div>
+    </div>
+  </div>
+  <div class="section10">
+    <div>
+      <p>© 2024 Wissenschaftswoche. Alle Rechte vorbehalten.</p>
+    </div>
+    <div style="display: flex;">
+      <p class="subTitle" style="margin: 0 15px 0 0;">Eric Schuck</p>
+      <p class="subTitle" style="margin: 0 15px 0 0;">David Helfrich</p>
+      <p class="subTitle" style="margin: 0 15px 0 0;">Laurin Lorke</p>
     </div>
   </div>
 </body>
