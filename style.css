@@ -188,6 +188,7 @@ body {
 .flex {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 /* Section3 */
@@ -228,4 +229,104 @@ body {
 
 .card {
   max-width: 400px;
+}
+
+/* Section4 */
+
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.r img {
+  filter: invert(1);
+  width: 80px;
+}
+
+/* Section5 */
+
+.section5 {
+  margin: 50px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section6 */
+
+.section6 {
+  margin: 50px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle {
+  background: rgb(41,131,214);
+  background: linear-gradient(90deg, rgba(41,131,214,1) 0%, rgba(56,104,92,1) 50%, rgba(47,44,49,1) 100%);
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.two { 
+  width: 600px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.starContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileContainer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileContainer p {
+  margin: 0;
+}
+
+.line {
+  margin: 0 20px 0 20px;
+}
+
+.circle1 {
+  margin-right: 10px;
+  width: 10px;
+  height: auto;
+}
+
+.black {
+  filter: invert(1);
+}
+
+/* Section7 */
+
+.section7 {
+  border: 4px solid red;
+  margin: 50px;
+}
+
+.sec7Container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card1 {
+  border: 4px solid blue;
 }
