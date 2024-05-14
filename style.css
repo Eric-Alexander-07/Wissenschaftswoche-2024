@@ -372,12 +372,19 @@ html {
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
+  position: relative;
+  margin: 20px;
 }
 
 .card1 {
   padding: 10px;
   max-width: 500px;
   position: relative;
+}
+
+.sec7Img {
+  width: 100%;
+  height: fit-content;
 }
 
 .card1 p {
