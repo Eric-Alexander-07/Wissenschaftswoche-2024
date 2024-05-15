@@ -94,7 +94,7 @@ if (width <= 1000) {
 <body>
   <div onclick="activate2()" class="navCircle">
     <div class="hamContainer">
-      <img class="hamburger" src="assets/Hamburger_icon.png">
+      <img class="hamburger" src="../assets/Hamburger_icon.png">
     </div>
     <div class="invisible">
       <a href="#" class="navSection">
@@ -138,15 +138,15 @@ if (width <= 1000) {
           <img class="scalable" src="assets/image1.png">
       </div>
       <div class="r">
-        <p class="subTitle">Vertrauen</p>
-        <p class="bigTitle">Die Warheit entdecken: Die Funktionsweise von Lügendetektoren</p>
+        <p class="subTitle" style="font-size: 15px;">Vertrauen</p>
+        <p class="bigTitle" style="font-size: 20px;">Die Warheit entdecken: Die Funktionsweise von Lügendetektoren</p>
       </div>
     </div>
     <div>
       <p class="subTitle">Lügendetektoren sind ein faszinierendes Werkzeug zur Erkennung von Lügen. Erfahren Sie mehr über ihre Funktionsweise und erhalten Sie einen kurzen historischen Überblick über ihre Entwicklung.</p>
       <div id="komponente" class="flex">
       <a href="">
-        <div class="button" style="border-radius: 50px;">
+        <div class="button" style="border-radius: 50px; width: 140px;">
           <p class="subTitle white">Mehr Erfahren</p>
         </div>
       </a>
@@ -183,46 +183,46 @@ if (width <= 1000) {
       <a href="#" class="subTitle white">Mehr Erfahren ></a>
     </div>
   </div>
-  <div id="vorteile" class="section4 grid">
+  <div id="vorteile" class="section4 grid" style="margin: 10px;">
     <div class="flex">
-      <div class="r" style="width: 60%; margin-left: 20px;">
-        <img src="assets/Rectangle 35.png">
-        <p class="bigTitle">Vorteile von Lügendetektoren in<br>verschiedenen<br>Einsatzgebieten</p>
+      <div class="r" style="width: fit-content;">
+        <img style="width: 15px;" src="assets/Rectangle 35.png">
+        <p class="bigTitle" style="font-size: 15px;">Vorteile von Lügendetektoren in<br>verschiedenen<br>Einsatzgebieten</p>
       </div>
-      <div class="l" style="width: 50%;">
+      <div class="l" style="width: 100%;">
           <img class="scalable" src="assets/image2.png">
       </div>
     </div>
     <div class="flex">
-      <p class="subTitle">Lügendetektoren bieten zahlreiche Vorteile in verschiedenen Bereichen. Sie können dabei helfen, die Wahrheit aufzudecken und die Sicherheit zu gewährleisten.</p>
+      <p class="subTitle" style="font-size: 10px;">Lügendetektoren bieten zahlreiche Vorteile in verschiedenen Bereichen. Sie können dabei helfen, die Wahrheit aufzudecken und die Sicherheit zu gewährleisten.</p>
       <div class="flex">
         <a href="">
-          <div class="button" style="border-radius: 50px;">
-            <p class="subTitle white">Mehr Erfahren</p>
+          <div class="button" style="border-radius: 50px; width: 80px; height: 30px;">
+            <p class="subTitle white" style="font-size: 10px;">Mehr Erfahren</p>
           </div>
         </a>
       </div>
     </div>
   </div>
-  <div class="section5 grid">
+  <div class="section5 grid" style="margin-top: 50px;">
     <div class="flex">
       <img class="scalable" src="assets/image3.png">
     </div>
-    <div class="flex" style="margin-left: 20px;">
+    <div class="flex">
       <div class="r">
-        <p class="bigTitle">Diskutieren Sie die<br>Sicherheit von<br>Lügendetektoren</p>
+        <p class="bigTitle" style="font-size: 20px;">Diskutieren Sie die<br>Sicherheit von<br>Lügendetektoren</p>
       </div>
         <a href="#contact">
           <div class="button" style="border-radius: 50px;">
-            <p class="subTitle white">Kontaktieren</p>
+            <p style="font-size: 12px;" class="subTitle white">Kontaktieren</p>
           </div>
         </a>
     </div>
     <div class="flex">
-      <p class="subTitle">Erfahren Sie mehr über die Wirksamkeit von Lügendetektoren und ihre Verwendung während der Wissenschaftswoche.</p>
+      <p class="subTitle" style="font-size: 12px;">Erfahren Sie mehr über die Wirksamkeit von Lügendetektoren und ihre Verwendung während der Wissenschaftswoche.</p>
     </div>
   </div>
-  <div class="section6">
+  <div class="section6" style="margin-top: 0;">
     <div class="two">
       <div class="flex1">
         <div class="comment mySlides fade comment1" style="margin-left: auto;">
@@ -400,56 +400,133 @@ if (width <= 1000) {
       </div>
     </div>
   </div>
-  <div class="section8">
-    <div class="left">
+  <div class="section8" style="display: grid;">
+    <div class="left" style="align-items: top;">
       <div>
         <p class="bigTitle">Häufige Fragen</p>
         <p class="subTitle">Hier finden Sie weitere häufig gestellte Fragen zu ethischen Bedenken und wissenschaftlichen Erkenntnissen rund um Lügendetektoren.</p>
         <a href="mailto:eschuck58@gmail.com" target="_blank">
-          <div class="button" style="border-radius: 50px;">
+          <div class="button" style="border-radius: 50px; margin-bottom: 50px;">
             <p class="subTitle white">Kontakt</p>
           </div>
         </a>
       </div>
     </div>
-    <div class="right">
-      <div>
-        <div>dropdown</div>
-        <div>dropdown</div>
-        <div>dropdown</div>
-        <div>dropdown</div>
-        <div>dropdown</div>
+
+    <div class="section8r">
+      <div class="borderq">
       </div>
-    </div>
+      <div class="question1">
+        <div class="section8question">
+          <div class="question">
+            <p>Ist ein Lügendetektor zuverlässig?</p>
+          </div>
+          <div class="arrowdownIcon">
+            <img class="icon" src="assets/arrow-down.svg" onclick="openDropdown('exQ1', 'pQ1')">
+          </div>
+        </div>
+        <div class="contentquestion">
+          <p>
+            Die Zuverlässigkeit eines Lügendetektors hängt von 
+            <span class="invisible x" id="exQ1">verschiedenen Faktoren ab, einschließlich der Erfahrung des Prüfers und der Art der Befragung bzw. des CQT - Lügendetektors.</span>
+            <span class="y " id="pQ1">...</span>
+          </p>
+          <div class="extendedContentQ">
+  
+          </div>
+        </div>
+        
+      </div>
+      <div class="borderq">
+      </div>
+      <div class="question1">
+        <div class="section8question">
+          <div class="question">
+            <p>Wie funktioniert ein Lügendetektor?</p>
+          </div>
+          <div class="arrowdownIcon">
+            <img onclick="openDropdown('exQ2', 'pQ2')" class="icon" src="assets/arrow-down.svg">
+          </div>
+        </div>
+        <div class="contentquestion">
+          <p>
+            Ein Lügendetektor misst verschiedene physiologische Reaktionen wie  
+            <span class="invisible x" id="exQ2">Herzschlag, Blutdruck und Hautleitfähigkeit, um Anzeichen von Stress oder Unwarheit zu erkennen</span>
+            <span class="y " id="pQ2">...</span>
+          </p>
+      </div>
+      <div class="borderq">
+      </div>
+      <div class="question1">
+        <div class="section8question">
+          <div class="question">
+            <p>Ist ein Lügendetektor legal?</p>
+          </div>
+          <div class="arrowdownIcon">
+            <img id="iconar" class="icon" src="assets/arrow-down.svg" onclick="openDropdown('exQ3', 'pQ3')">
+          </div>
+        </div>
+        <div class="contentquestion">
+          <p>
+            Die Verwendung von Lügendetektoren ist in einigen Ländern eingeschränkt (inklusive Deutschland) und 
+            <span id="exQ3" class="invisible x">kann nur in bestimmten Situationen genutzt werden. Außerdem sind Auswertung der Lügendetektoren vor Gericht  als Beweise selten zulässig und auch leicht abstreitbar. </span>
+            <span class="y" id="pQ3">...</span>  
+          </p>
+          
+        </div>
+      </div>
+      <div class="borderq">
+      </div>
+      <div class="question1">
+        <div class="section8question">
+          <div class="question">
+            <p>Kann ein Lügendetektor manipuliert werden?</p>
+          </div>
+          <div class="arrowdownIcon">
+            <img id="iconar" class="icon" src="assets/arrow-down.svg" onclick="openDropdown('exQ4', 'pQ4')">
+          </div>
+        </div>
+        <div class="contentquestion">
+          <p style="transition: all 0.5s ease;">
+            Ja, Lügendetektoren können durch verschiedene Methoden 
+            <span id="exQ4" class="invisible x"> manipuliert werden, wie beispielweise durch die Verwendung von Gegenmaßnahmen, das bedeutet z.B kontrollieren von physiologische Reaktionen, etc. </span>
+            <span class="y" id="pQ4">...</span>  
+          </p>
+        </div>
+        <div class="borderq">
+        </div>
+  </div>
+  </div>
+  </div>
   </div>
   <div class="section9">
-    <div>
+    <div style="width: 70px;">
       <img class="scalable" src="assets/profile.png">
     </div>
-    <div>
-      <p class="subTitle" style="font-weight: 700;">Der Lügendetektor</p>
-      <p class="subTitle">Funktion</p>
-      <p class="subTitle">Vorteile</p>
-      <p class="subTitle">Bewertungen</p>
+    <div style="margin-left: 10px;">
+      <p class="subTitle" style="font-weight: 700; font-size: 10px;">Der Lügendetektor</p>
+      <p class="subTitle" style="font-size: 10px;">Funktion</p>
+      <p class="subTitle" style="font-size: 10px;">Vorteile</p>
+      <p class="subTitle" style="font-size: 10px;">Bewertungen</p>
     </div>
-    <div>
-      <p class="subTitle" style="font-weight: 700;">Kontakt</p>
-      <p class="subTitle">Bleiben Sie auf dem Laufenden.</p>
+    <div style="margin-left: 10px;">
+      <p class="subTitle" style="font-weight: 700; font-size: 10px;">Kontakt</p>
+      <p class="subTitle" style="font-size: 10px;">Bleiben Sie auf dem Laufenden.</p>
       <a href="mailto:eschuck58@gmail.com" target="_blank">
-        <div id="contact" class="button" style="border-radius: 50px;">
-          <p class="subTitle white">Email</p>
+        <div id="contact" class="button" style="border-radius: 50px; width: 60px; height: 25px;">
+          <p class="subTitle white" style="font-size: 10px;">Email</p>
         </div>
       </a>
     </div>
   </div>
   <div class="section10">
     <div>
-      <p>© 2024 Wissenschaftswoche. Alle Rechte vorbehalten.</p>
+      <p style="font-size: 8px;">© 2024 Wissenschaftswoche. Alle Rechte vorbehalten.</p>
     </div>
     <div style="display: flex;">
-      <p class="subTitle" style="margin: 0 15px 0 0;">Eric Schuck</p>
-      <p class="subTitle" style="margin: 0 15px 0 0;">David Helfrich</p>
-      <p class="subTitle" style="margin: 0 15px 0 0;">Laurin Lorke</p>
+      <p class="subTitle" style="margin: 0 15px 0 0; font-size: 10px;">Eric Schuck</p>
+      <p class="subTitle" style="margin: 0 15px 0 0; font-size: 10px;">David Helfrich</p>
+      <p class="subTitle" style="margin: 0 15px 0 0; font-size: 10px;">Laurin Lorke</p>
     </div>
   </div>
   <script src="script.js"></script>
