@@ -94,7 +94,7 @@ if (width <= 1000) {
 <body>
   <div onclick="activate2()" class="navCircle">
     <div class="hamContainer">
-      <img class="hamburger" src="../assets/Hamburger_icon.png">
+      <img class="hamburger" src="assets/Hamburger_icon.png">
     </div>
     <div class="invisible">
       <a href="#" class="navSection">
