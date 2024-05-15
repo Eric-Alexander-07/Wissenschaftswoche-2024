@@ -1,0 +1,152 @@
+body {
+  padding-bottom: 10px;
+  overflow-x: hidden;
+}
+  
+.navCircle {
+  position: fixed;
+  padding: 20px 20px 20px 20px;
+  margin: 10px 10px 0 10px;
+  border-radius: 50%;
+  height: 150px;
+  top: 0;
+  width: 150px;
+  background: rgba(41,131,214, 0.9);
+  background: linear-gradient(90deg, rgba(41,131,214,0.9) 0%, rgba(56,104,92,0.9) 50%, rgba(47,44,49,0.9) 100%);
+  transition: all 0.5s ease;
+  z-index: 999; 
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.hamburger {
+  height: 100%;
+  width: auto;
+}
+
+.hamContainer {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+  display: block;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+}
+
+.navCircle div a {
+  color: white;
+}
+
+.activate {
+  height: 100%;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin: 0;
+  width: 70%;
+  transition: all 0.5s ease;
+  border-radius: 0;
+}
+
+.invisible {
+  visibility: hidden;
+  height: 100%;
+}
+
+.navIcon {
+  display: flex;
+  text-align: center;
+  height: 100px;
+}
+
+.navIcon p {
+  text-align: center;
+  font-size: 45px;
+}
+
+.navIcon img {
+  margin-right: 50px;
+}
+
+.down {
+  position: absolute;
+  bottom: 100px;
+}
+
+.shown {
+  visibility: visible;
+}
+
+.ham {
+  height: 150px;
+  margin-bottom: 40px;
+}
+
+.invisible p.bigTitle {
+  margin-bottom: 40px;
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+
+.bigTitle {
+  font-size: 45px;
+}
+
+.subTitle {
+  font-size: 25px;
+}
+
+.section1 {
+  margin-top: 210px;
+}
+
+.button {
+  width: 200px;
+}
+
+.l {
+  width: 60%;
+  margin-right: 30px;
+}
+
+.r {
+  position: relative;
+  right: 20px;
+}
+
+.scalable {
+  width: 100%;
+  height: auto;
+}
+
+.flex div .bigTitle {
+  font-size: 30px;
+}
+
+.section3 {
+  height: fit-content;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: 500px;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.profileContainer .scalable {
+  width: 100px;
+}
