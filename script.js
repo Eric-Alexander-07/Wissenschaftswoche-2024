@@ -471,3 +471,14 @@ function activate2 () {
     document.querySelector('.invisible').classList.remove('shown');
   }
 }
+
+function openDropdown(id, idP) {
+    var Close = document.getElementsByClassName('x');
+    var points = document.getElementById(idP);
+    var Dropdown = document.getElementById(id);
+    console.log('läuft');
+    console.log(idP, id);
+    console.log(Close);
+    Dropdown.classList.toggle('invisible');
+    points.classList.toggle('invisible');
+}

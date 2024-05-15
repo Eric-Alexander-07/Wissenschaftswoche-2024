@@ -395,7 +395,6 @@ html {
 
 .section8 {
   display: flex;
-  align-items: center;
   justify-content: center;
   margin: 50px;
 }
@@ -442,4 +441,93 @@ html {
 
 .scalable {
   transition: all 0.5s ease;
+}
+
+.section8 {
+  display: flex;
+  margin: 50px;
+  transition: all 0.5s ease;
+}
+
+.section8 .left, .section8 .right {
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.section8question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.question1{
+  display: flex;
+  width: 100%;
+  padding-top: 5px;
+  flex-direction: column;
+  transition: all 0.5s ease;
+}
+
+.section8r{
+  align-items: none;
+  display: flex;
+  width: 100%;
+  padding-top: 5px;
+  flex-direction: column;
+  transition: all 0.5s ease;
+}
+
+.question {
+  padding-left: 10px;
+  font-size: 25px;
+  transition: all 0.5s ease;
+}
+
+.contentquestion{
+  padding-left: 10px;
+  transition: all 0.5s ease;
+}
+
+.invisible{
+  display: none;
+  transition: all 0.5s ease;
+}
+
+.visible{
+  display: show;
+  transition: all 0.5s ease;
+}
+
+.arrowdownIcon{
+  padding-right: 40px;
+  transition: all 0.5s ease;
+}
+
+.icon{
+  width: 20px;
+  height: auto;
+}
+
+.icon:hover{
+cursor: pointer;
+}
+
+.y{
+  transition: all 0.5s ease;
+}
+
+.x{
+  transition: all 0.5s ease;
+}
+
+.borderq{
+  height: 10px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: all 0.5s ease;
+  background: rgb(41,131,214);
+  background: linear-gradient(90deg, rgba(41,131,214,1) 0%, rgba(56,104,92,1) 50%, rgba(47,44,49,1) 100%);
 }
