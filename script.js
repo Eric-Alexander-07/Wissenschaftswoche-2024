@@ -455,6 +455,9 @@ if (width <= 1000) {
   <script src="script.js"></script>
 </body>
     `;
+dot = 1;
+showSlides(1);
+activate();
 }
 
 var check = false;

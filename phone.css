@@ -158,10 +158,6 @@ body {
   height: 50px;
 } 
 
-.circle img {
-
-}
-
 .circle1 {
   width: 10px;
   height: auto;
@@ -188,4 +184,8 @@ body {
 
 .profileContainer {
   width: 100%;
+}
+
+.imgContainer1 {
+  margin-right: 15px;
 }
