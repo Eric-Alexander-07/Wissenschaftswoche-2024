@@ -189,3 +189,7 @@ body {
 .imgContainer1 {
   margin-right: 15px;
 }
+
+.shown {
+  display: contents;
+}

@@ -94,7 +94,7 @@ if (width <= 1000) {
 <body>
   <div onclick="activate2()" class="navCircle">
     <div class="hamContainer">
-      <img class="hamburger" src="../assets/Hamburger_icon.png">
+      <img class="hamburger" src="assets/Hamburger_icon.png">
     </div>
     <div class="invisible">
       <a href="#" class="navSection">
@@ -106,13 +106,13 @@ if (width <= 1000) {
       <a style="height: fit-content;" href="#" class="navSection">
         <p style="background-color: #2B2222; height: fit-content;" class="bigTitle">Der Lügendetektor</p>
       </a>
-      <a href="#" class="navIcon">
+      <a href="#funktion" class="navIcon">
         <p class="subTitle white">Funktionsweise</p>
       </a>
-      <a href="#" class="navIcon">
+      <a href="#komponente" class="navIcon">
         <p class="subTitle white">Hauptkomponente</p>
       </a>
-      <a href="#" class="navIcon">
+      <a href="#vorteile" class="navIcon">
         <p class="subTitle white">Vorteile</p>
       </a>
       <a href="#contact" class="navIcon down">
@@ -184,17 +184,17 @@ if (width <= 1000) {
     </div>
   </div>
   <div id="vorteile" class="section4 grid" style="margin: 10px;">
-    <div class="flex">
+    <div class="flex" style="padding-left: 10px;">
       <div class="r" style="width: fit-content;">
         <img style="width: 15px;" src="assets/Rectangle 35.png">
         <p class="bigTitle" style="font-size: 15px;">Vorteile von Lügendetektoren in<br>verschiedenen<br>Einsatzgebieten</p>
       </div>
-      <div class="l" style="width: 100%;">
+      <div class="l" style="width: 80%;">
           <img class="scalable" src="assets/image2.png">
       </div>
     </div>
-    <div class="flex">
-      <p class="subTitle" style="font-size: 10px;">Lügendetektoren bieten zahlreiche Vorteile in verschiedenen Bereichen. Sie können dabei helfen, die Wahrheit aufzudecken und die Sicherheit zu gewährleisten.</p>
+    <div class="flex" style="padding: 10px;">
+      <p class="subTitle" style="font-size: 12px;">Lügendetektoren bieten zahlreiche Vorteile in verschiedenen Bereichen. Sie können dabei helfen, die Wahrheit aufzudecken und die Sicherheit zu gewährleisten.</p>
       <div class="flex">
         <a href="">
           <div class="button" style="border-radius: 50px; width: 80px; height: 30px;">
@@ -205,7 +205,7 @@ if (width <= 1000) {
     </div>
   </div>
   <div class="section5 grid" style="margin-top: 50px;">
-    <div class="flex">
+    <div class="flex" style="margin-bottom: 15px;">
       <img class="scalable" src="assets/image3.png">
     </div>
     <div class="flex">
