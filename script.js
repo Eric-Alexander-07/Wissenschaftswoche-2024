@@ -150,7 +150,6 @@ if (width <= 1000) {
           <p class="subTitle white">Mehr Erfahren</p>
         </div>
       </a>
-      <a href="#" class="subTitle jetztAnsehen" style="margin-top: 30px; margin-left: 50px;">Jetzt ansehen ></a>
       </div>
     </div>
   </div>
@@ -365,9 +364,9 @@ if (width <= 1000) {
         </div>
         <p class="subTitle">Seit einer Woche lerne ich über den Lügendetektor und bin inzwischen Experte auf diesem Gebiet.</p>
         <div style="margin-top: 10px;">
-        <a href="https://www.instagram.com/_ericschuck_/"><img class="scalable" src="assets/insta.png"></a>
-        <a href=""><img class="scalable" src="assets/phone.png"></a>
-        <a href="mailto:eschuck58@gmail.com"><img class="scalable" src="assets/mail.png"></a>
+        <a href="https://www.instagram.com/_ericschuck_/"><img class="scalable w" src="assets/insta.png"></a>
+        <a href=""><img class="scalable w" src="assets/phone.png"></a>
+        <a href="mailto:eschuck58@gmail.com"><img class="scalable w" src="assets/mail.png"></a>
         </div>
       </div>
       <div class="card1">
@@ -382,9 +381,9 @@ if (width <= 1000) {
         </div>
         <p class="subTitle">Seit einer Woche lerne ich über den Lügendetektor und bin inzwischen Experte auf diesem Gebiet.</p>
         <div style="margin-top: 10px;">
-        <a href="https://www.instagram.com/david.hsg.99/"><img class="scalable" src="assets/insta.png"></a>
-        <a href=""><img class="scalable" src="assets/phone.png"></a>
-        <a href="mailto:helfrichdavid07@gmail.com"><img class="scalable" src="assets/mail.png"></a>
+        <a href="https://www.instagram.com/david.hsg.99/"><img class="scalable w" src="assets/insta.png"></a>
+        <a href=""><img class="scalable w" src="assets/phone.png"></a>
+        <a href="mailto:helfrichdavid07@gmail.com"><img class="scalable w" src="assets/mail.png"></a>
         </div>
       </div>
       <div class="card1">
@@ -399,9 +398,9 @@ if (width <= 1000) {
         </div>
         <p class="subTitle">Seit einer Woche lerne ich über den Lügendetektor und bin inzwischen Experte auf diesem Gebiet.</p>
         <div style="margin-top: 10px;">
-        <a href="https://www.instagram.com/08laurin80/"><img class="scalable" src="assets/insta.png"></a>
-        <a href=""><img class="scalable" src="assets/phone.png"></a>
-        <a href="mailto:lorke_laurin@yahoo.com"><img class="scalable" src="assets/mail.png"></a>
+        <a href="https://www.instagram.com/08laurin80/"><img class="scalable w" src="assets/insta.png"></a>
+        <a href=""><img class="scalable w" src="assets/phone.png"></a>
+        <a href="mailto:lorke_laurin@yahoo.com"><img class="scalable w" src="assets/mail.png"></a>
         </div>
       </div>
     </div>
@@ -516,11 +515,11 @@ if (width <= 1000) {
       <a href="#bewertung" class="subTitle">Bewertungen</a>
     </div>
     <div style="margin-left: 10px;">
-      <p class="subTitle" style="font-weight: 700; font-size: 10px;">Kontakt</p>
-      <p class="subTitle" style="font-size: 10px;">Bleiben Sie auf dem Laufenden.</p>
+      <p class="subTitle" style="font-weight: 700;">Kontakt</p>
+      <p class="subTitle">Bleiben Sie auf dem Laufenden.</p>
       <a href="mailto:eschuck58@gmail.com" target="_blank">
-        <div id="contact" class="button" style="border-radius: 50px; width: 60px; height: 25px;">
-          <p class="subTitle white" style="font-size: 10px;">Email</p>
+        <div id="contact" class="button" style="border-radius: 50px; width: 100px; height: 35px;">
+          <p class="subTitle white">Email</p>
         </div>
       </a>
     </div>
