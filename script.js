@@ -359,9 +359,9 @@ if (width <= 1000) {
         </div>
         <p class="subTitle">Seit einer Woche lerne ich über den Lügendetektor und bin inzwischen Experte auf diesem Gebiet.</p>
         <div style="margin-top: 10px;">
-          <img class="" src="assets/insta.png">
-          <img class="" src="assets/phone.png">
-          <img class="" src="assets/mail.png">
+        <a href="https://www.instagram.com/_ericschuck_/"><img class="scalable" src="assets/insta.png"></a>
+        <a href=""><img class="scalable" src="assets/phone.png"></a>
+        <a href="mailto:eschuck58@gmail.com"><img class="scalable" src="assets/mail.png"></a>
         </div>
       </div>
       <div class="card1">
@@ -376,9 +376,9 @@ if (width <= 1000) {
         </div>
         <p class="subTitle">Seit einer Woche lerne ich über den Lügendetektor und bin inzwischen Experte auf diesem Gebiet.</p>
         <div style="margin-top: 10px;">
-          <img class="" src="assets/insta.png">
-          <img class="" src="assets/phone.png">
-          <img class="" src="assets/mail.png">
+        <a href="https://www.instagram.com/david.hsg.99/"><img class="scalable" src="assets/insta.png"></a>
+        <a href=""><img class="scalable" src="assets/phone.png"></a>
+        <a href="mailto:helfrichdavid07@gmail.com"><img class="scalable" src="assets/mail.png"></a>
         </div>
       </div>
       <div class="card1">
@@ -393,9 +393,9 @@ if (width <= 1000) {
         </div>
         <p class="subTitle">Seit einer Woche lerne ich über den Lügendetektor und bin inzwischen Experte auf diesem Gebiet.</p>
         <div style="margin-top: 10px;">
-          <img class="" src="assets/insta.png">
-          <img class="" src="assets/phone.png">
-          <img class="" src="assets/mail.png">
+        <a href="https://www.instagram.com/08laurin80/"><img class="scalable" src="assets/insta.png"></a>
+        <a href=""><img class="scalable" src="assets/phone.png"></a>
+        <a href="mailto:lorke_laurin@yahoo.com"><img class="scalable" src="assets/mail.png"></a>
         </div>
       </div>
     </div>
