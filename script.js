@@ -125,7 +125,7 @@ if (width <= 1000) {
     <div class="sec1">
       <p class="bigTitle white">Entdecken Sie die<br>Wahrheit mit<br>Lügendetektoren </p>
       <p class="subTitle white">Erfahren Sie, wie Lügendetektoren die<br>Wissenschaft und Justiz<br>beeinflussen.</p>
-      <a href="">
+      <a href="Wissenschaft & Justiz.docx-2.pdf">
         <div id="funktion" class="button">
           <p class="subTitle white">Mehr Erfahren</p>
         </div>
@@ -145,7 +145,7 @@ if (width <= 1000) {
     <div>
       <p class="subTitle">Lügendetektoren sind ein faszinierendes Werkzeug zur Erkennung von Lügen. Erfahren Sie mehr über ihre Funktionsweise und erhalten Sie einen kurzen historischen Überblick über ihre Entwicklung.</p>
       <div id="komponente" class="flex">
-      <a href="">
+      <a href="Wie funktioniert der Lügendetektor.docx-2.pdf">
         <div class="button" style="border-radius: 50px; width: 140px;">
           <p class="subTitle white">Mehr Erfahren</p>
         </div>
@@ -164,24 +164,30 @@ if (width <= 1000) {
     </div>
   </div>
   <div class="grid">
-    <div class="card">
-      <img src="assets/Rectangle 35.png">
-      <p class="bigTitle white">Physiologische Sensoren</p>
-      <p class="subTitle white" style="margin-bottom: 50px;">Physiologische Sensoren erfassen physiologische Reaktionen wie Herzfrequenz, Hautleitwert und Atemmuster.</p>
-      <a href="#" class="subTitle white">Mehr Erfahren ></a>
-    </div>
-    <div class="card">
-      <img src="assets/Rectangle 35.png">
-      <p class="bigTitle white">Datenverarbeungs-einheit</p>
-      <p class="subTitle white" style="margin-bottom: 50px;">Die Datenverarbeitungseinheit analysiert die von den Sensoren gesammelten Daten und bereitet sie für die Auswertung vor.</p>
-      <a href="#" class="subTitle white">Mehr Erfahren ></a>
-    </div>
-    <div class="card">
-      <img src="assets/Rectangle 35.png">
-      <p class="bigTitle white">Auswertungs-software</p>
-      <p class="subTitle white" style="margin-bottom: 25px;">Die Auswertungssoftware interpretiert die Daten und gibt eine Aussage darüber ab, ob die Person die Wahrheit sagt oder lügt.</p>
-      <a href="#" class="subTitle white">Mehr Erfahren ></a>
-    </div>
+    <a href="Wie funktioniert der Lügendetektor.docx-2.pdf">
+      <div class="card">
+        <img src="assets/Rectangle 35.png">
+        <p class="bigTitle white">Physiologische Sensoren</p>
+        <p class="subTitle white" style="margin-bottom: 50px;">Physiologische Sensoren erfassen physiologische Reaktionen wie Herzfrequenz, Hautleitwert und Atemmuster.</p>
+        <a href="#" class="subTitle white">Mehr Erfahren ></a>
+      </div>
+    </a>
+    <a href="Wie funktioniert der Lügendetektor.docx-2.pdf">
+      <div class="card">
+        <img src="assets/Rectangle 35.png">
+        <p class="bigTitle white">Datenverarbeungs-einheit</p>
+        <p class="subTitle white" style="margin-bottom: 50px;">Die Datenverarbeitungseinheit analysiert die von den Sensoren gesammelten Daten und bereitet sie für die Auswertung vor.</p>
+        <a href="#" class="subTitle white">Mehr Erfahren ></a>
+      </div>
+    </a>
+    <a href="Wie funktioniert der Lügendetektor.docx-2.pdf">
+      <div class="card">
+        <img src="assets/Rectangle 35.png">
+        <p class="bigTitle white">Auswertungs-software</p>
+        <p class="subTitle white" style="margin-bottom: 25px;">Die Auswertungssoftware interpretiert die Daten und gibt eine Aussage darüber ab, ob die Person die Wahrheit sagt oder lügt.</p>
+        <a href="#" class="subTitle white">Mehr Erfahren ></a>
+      </div>
+    </a>
   </div>
   <div id="vorteile" class="section4 grid" style="margin: 10px;">
     <div class="flex" style="padding-left: 10px;">
@@ -196,7 +202,7 @@ if (width <= 1000) {
     <div class="flex" style="padding: 10px;">
       <p class="subTitle" style="font-size: 12px;">Lügendetektoren bieten zahlreiche Vorteile in verschiedenen Bereichen. Sie können dabei helfen, die Wahrheit aufzudecken und die Sicherheit zu gewährleisten.</p>
       <div class="flex">
-        <a href="">
+        <a href="Vor und Nachteile.docx-2.pdf">
           <div class="button" style="border-radius: 50px; width: 80px; height: 30px;">
             <p class="subTitle white" style="font-size: 10px;">Mehr Erfahren</p>
           </div>
@@ -350,7 +356,7 @@ if (width <= 1000) {
       <div class="card1">
         <div class="flex">
           <div class="imgContainer1">
-            <img class="sec7Img" src="assets/profilePic.png">
+            <img class="sec7Img" src="assets/Eric2.png">
           </div>
           <div>
             <p class="subTitle">Eric Schuck</p>
@@ -367,7 +373,7 @@ if (width <= 1000) {
       <div class="card1">
         <div class="flex">
           <div class="imgContainer1">
-            <img class="sec7Img" src="assets/profilePic.png">
+            <img class="sec7Img" src="assets/david.png">
           </div>
           <div>
             <p class="subTitle">David Helfrich</p>
@@ -384,7 +390,7 @@ if (width <= 1000) {
       <div class="card1">
         <div class="flex">
           <div class="imgContainer1">
-            <img class="sec7Img" src="assets/profilePic.png">
+            <img class="sec7Img" src="assets/Laurin.png">
           </div>
           <div>
             <p class="subTitle">Laurin Lorke</p>
